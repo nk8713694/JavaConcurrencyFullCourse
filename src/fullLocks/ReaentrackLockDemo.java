@@ -6,7 +6,10 @@ public class ReaentrackLockDemo {
 
     ReentrantLock reentrantLock = new ReentrantLock();
 
-
+    synchronized()
+    {
+        System.out.println("synchronized");
+    }
     public void outerMethod(){
         reentrantLock.lock();
         try {
