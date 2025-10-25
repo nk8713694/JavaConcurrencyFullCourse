@@ -10,7 +10,7 @@ public class ReaentrackLockDemo {
     {
         System.out.println("synchronized");
     }
-    public void outerMethod(){
+    public void outerMethod(){f
         reentrantLock.lock();
         try {
             System.out.println("POuter Methids");
