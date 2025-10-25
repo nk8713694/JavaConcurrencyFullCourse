@@ -31,7 +31,8 @@ public class ReaentrackLockDemo {
             Thread.sleep(1000);
 
         }catch (InterruptedException e){
-
+         Thread.sleep(1000);
+         System.out.println("InterruptedException");
         } finally {
             reentrantLock.unlock();
         }
